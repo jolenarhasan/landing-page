@@ -452,7 +452,12 @@ color: #dddddd;
     }
 
 }
+@media(max-width:650px){
+    .available-courses .container{
+        width:calc(100% - 50px);
+    }
 
+}
     @media(max-width:700px){
         .course-items .course{
             width: 100%;
